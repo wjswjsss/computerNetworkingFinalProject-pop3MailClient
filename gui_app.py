@@ -19,10 +19,10 @@ import re
 import html as html_lib
 
 # -------------------
-# Default QQ credentials (modifiable via login UI)
+# Default QQ credentials (modifiable via login UI) for frequent testing
 # -------------------
-DEFAULT_USER = '123456@qq.com'
-DEFAULT_PWD  = 'I dont know'        // ur pwd
+DEFAULT_USER = '123456@qq.com'      # ur account
+DEFAULT_PWD  = 'I dont know'        # ur pwd
 
 # Environment overrides (if set)
 USER_ENV     = os.getenv('POP3_USER')
