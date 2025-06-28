@@ -22,7 +22,8 @@ import html as html_lib
 # Default QQ credentials (modifiable via login UI) for frequent testing
 # -------------------
 DEFAULT_USER = '123456@qq.com'      # ur account
-DEFAULT_PWD  = 'I dont know'        # ur pwd
+DEFAULT_PWD  = 'I dont know'        # ur pwd, well uh I forgot to remove the pwd & account when initial git push, 
+                                    # but dont try to use them cuz I have disabled them xd. 
 
 # Environment overrides (if set)
 USER_ENV     = os.getenv('POP3_USER')
